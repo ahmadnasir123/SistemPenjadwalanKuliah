@@ -1,0 +1,54 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: #1560BD;
+}
+
+form{
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+}
+
+input, button{
+    padding: 6px;
+    margin: 10 6 6 6;
+    width: 100%;
+}
+
+.btn-login{
+    background-color: #1560BD;
+    border: none;
+    padding: 10px;
+    color: #FFFF;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1560BD;
+}
+
+li{
+    float: left;
+    letter-spacing: 2px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
